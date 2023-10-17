@@ -36,3 +36,7 @@ footer{
     display: flex;
     flex-grow: 1;
 }
+
+icones{
+    border: .5rem solid black;
+}

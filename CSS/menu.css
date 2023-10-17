@@ -37,6 +37,22 @@ footer{
     flex-grow: 1;
 }
 
-icones{
-    border: .5rem solid black;
+.icones{
+    border: .3rem solid black;
+    margin: .8rem;
+    padding: .3rem;
+}
+
+.legenda_imagens{
+    text-align: center;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
 }

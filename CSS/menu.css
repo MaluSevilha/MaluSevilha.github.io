@@ -35,16 +35,31 @@ footer{
     position: relative;
     display: flex;
     flex-grow: 1;
+    width:23.7rem ;
+    justify-content: center;
+    height:5rem ;
+    background-color: #c8ecd0;
+}
+
+.footer_items{
+    margin: .4rem ;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+.home{
+    padding-top: -.2rem;
 }
 
 .icones{
-    border: .3rem solid black;
-    margin: .8rem;
+    border: .2rem solid black;
+    margin: 1rem;
     padding: .3rem;
 }
 
 .legenda_imagens{
     text-align: center;
+    font-size: 1.3rem;
 }
 
 .linha{

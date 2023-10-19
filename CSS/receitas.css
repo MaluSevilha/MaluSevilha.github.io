@@ -33,11 +33,13 @@ main{
 
 .main_items{
     position: relative;
-    margin: 1.5rem;
+    margin: 2.5rem;
+    margin-left: -.2rem;
 }
 
 .images{
     border: .3px solid black;
+    margin: .6rem;
 }
 
 footer{

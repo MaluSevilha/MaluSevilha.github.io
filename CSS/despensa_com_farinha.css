@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.75;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.add{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    left: 40%;
+    top: 11%;
+}
+
+.ingredientes{
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0 2rem 2rem 2rem;
+    font-size: 2rem;
+    list-style-type: disc;
+}
+
+.item{
+    margin: 1rem;
+}
+
+main{
+    position: relative;
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    margin: 3rem 0 3rem 0;
+}
+
+footer{
+    position: relative;
+    display: flex;
+    flex-grow: 0.55;
+    height: 3rem;
+    width: 100%;
+    justify-content: center;
+    background-color: #c8ecd0;
+}
+
+.footer_items{
+    margin: .4rem ;
+    align-items: center;
+    padding-top: .5rem;
+}
+
+.home{
+    padding-top: -.2rem;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}

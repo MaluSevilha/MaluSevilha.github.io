@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Receitas</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/receitas.css">
 </head>
 <body>
     <header>
@@ -13,10 +15,10 @@
     </header>
 
     <main>
-        <ul>
+        <ul class="main_items">
             <!-- Macarrão a Carbonara -->
             <li>
-                <ul>
+                <ul class="linha">
                     <li>
                         <a href="#"><img src="https://fakeimg.pl/20x20" alt="Favoritar"></a>
                     </li>
@@ -26,31 +28,31 @@
                         </h3> 
                     </li>
                     <li>
-                        <a href="#"><img src="https://fakeimg.pl/400x150" alt="Macarrão a Carbonara"></a>
+                        <a href="#"><img src="img/carbonara.jpg" alt="Macarrão a Carbonara"></a>
                     </li>
                 </ul>
             </li>
 
             <!-- Filet Mignon -->
             <li>
-                <ul>
-                    <li>
+                <ul class="linha">
+                    <li class="start">
                         <a href="#"><img src="https://fakeimg.pl/20x20" alt="Favoritar"></a>
                     </li>
-                    <li>
+                    <li class="start">
                         <h3>
                             FILET MIGNON
                         </h3> 
                     </li>
-                    <li>
-                        <a href="#"><img src="https://fakeimg.pl/400x150" alt="Filet Mignon"></a>
+                    <li class="end">
+                        <a href="#"><img src="img/filemignon.jpg" alt="Filet Mignon"></a>
                     </li>
                 </ul>
             </li>
 
             <!-- Risoto Al Limone -->
             <li>
-                <ul>
+                <ul class="linha">
                     <li>
                         <a href="#"><img src="https://fakeimg.pl/20x20" alt="Favoritar"></a>
                     </li>
@@ -67,7 +69,7 @@
 
             <!-- Risoto de Salmão -->
             <li>
-                <ul>
+                <ul class="linha">
                     <li>
                         <a href="#"><img src="https://fakeimg.pl/20x20" alt="Favoritar"></a>
                     </li>
@@ -86,88 +88,53 @@
 
     <footer>
         <!-- Barra de ferramentas -->
-        <ul>
+        <ul class="linha">
             <!-- Favoritos -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Favoritos
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="favoritos.html"> <img src="https://fakeimg.pl/50x50" alt="Favoritos"> </a>
+                        <a href="favoritos.html"> <img src="img\Coracao.png" alt="Favoritos"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Despensa -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Despensa
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="despensa.html"> <img src="https://fakeimg.pl/50x50" alt="despensa"> </a>
+                        <a href="despensa.html"> <img src="img\Despensa.png" alt="despensa"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Menu -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Menu
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
-                    <li>
-                        <a href="index.html"> <img src="https://fakeimg.pl/50x50" alt="menu"> </a>
+                    <li class="home">
+                        <a href="index.html"> <img src="img\icone_casa.png" alt="menu"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Compras -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Compras
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="#"> <img src="https://fakeimg.pl/50x50" alt="compras"> </a>
+                        <a href="#"> <img src="img\carrinho_compras.png" alt="compras"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Usuário -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Usuário
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="#"> <img src="https://fakeimg.pl/50x50" alt="usuário"> </a>
+                        <a href="#"> <img src="img\usuario.png" alt="usuário"> </a>
                     </li>
                 </ul>
             </li>

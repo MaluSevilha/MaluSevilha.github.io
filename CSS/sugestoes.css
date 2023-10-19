@@ -58,3 +58,8 @@ h1{
     margin:2rem;
     background-color: #c8ecd0;
 }
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+}

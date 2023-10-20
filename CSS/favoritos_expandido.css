@@ -43,13 +43,6 @@ h1{
     border-bottom: 1px solid black;
 }
 
-.setaEsp{
-    position: absolute;
-    top: 0;
-    right: 0;
-
-}
-
 h2{
     font-size: 2rem;
 }
@@ -64,13 +57,39 @@ main{
     margin-bottom: 1rem;
 }
 
+.favoritado{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+    border-bottom: 1px solid #8fd69d;
+}
+
+.sobremesa{
+    border-bottom: 1px solid black;
+    padding: 2rem 0 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    margin-left: .5rem;
+}
+
+.scroll{
+    display: flex;
+    overflow-y: auto;
+}
+
 footer{
     position: relative;
     display: flex;
     flex-grow: 1;
     width: 100%;
     justify-content: center;
-    height: 3.5rem;
+    height: 5rem;
     background-color: #c8ecd0;
 }
 

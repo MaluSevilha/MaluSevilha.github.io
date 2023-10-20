@@ -36,7 +36,7 @@ h1{
     height: 2rem;
 }
 
-li{
+.categoria{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
@@ -50,7 +50,7 @@ h2{
 main{
     position: relative;
     display: flex;
-    flex-grow: 30;
+    flex-grow: 2;
     justify-content: left;
     align-items: left;
     flex-wrap: wrap;
@@ -63,7 +63,7 @@ footer{
     flex-grow: 1;
     width: 100%;
     justify-content: center;
-    height: 5rem;
+    height: 3.5rem;
     background-color: #c8ecd0;
 }
 

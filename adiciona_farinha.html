@@ -4,37 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PopUp</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/adiciona_farinha.css">
 </head>
 <body>
     
-    <header>
-        <input type="text" placeholder="Ingrediente...">
-    </header>
+    <p class="background"></p>
 
-    <main>
-        <ul>
-            <li>
-                <h6>
-                    qnt
-                </h6>
-            </li>
-            <li>
-                <!-- Botões de adição e subtração -->
-                <ul>
-                    <li>
-                        <a href="#"><img src="https://fakeimg.pl/20x20" alt="Adiciona"></a>
-                    </li>
-                    <li>
-                        <a href="#"><img src="https://fakeimg.pl/20x20" alt="Subtrai"></a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </main>
+    <ul class="falso-body">
+        <li class="header">
+            <input type="text" placeholder="Ingrediente...">
+        </li>
+    
+        <li class="main">
+            <ul>
+                <li>
+                    <!-- Botões de adição e subtração -->
+                    <ul class="coluna">
+                        <li class="operador">
+                            <a href="#">+</a>
+                        </li>
 
-    <footer>
-        <a href="despensa_com_farinha.html"><img src="https://fakeimg.pl/20x20" alt="Confirmar"></a>
-    </footer>
+                        <li class="texto">
+                            <h6>
+                                quantidade
+                            </h6>
+                            <h6>
+                                0
+                            </h6>
+                        </li>
+
+                        <li class="operador">
+                            <a href="#">-</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+    
+        <li class="footer">
+            <a href="despensa_com_farinha.html"><img src="img/check.png" alt="Confirmar"></a>
+        </li>
+    </ul>
 
 </body>
 </html>

@@ -69,6 +69,7 @@ h2{
     font-size: 2rem;
     margin: 1rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .lista{
@@ -77,4 +78,10 @@ h2{
 
 .listitems{
     margin-top: .5rem;
+    font-size: 1rem;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: flex-end;
 }

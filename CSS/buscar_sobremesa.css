@@ -8,8 +8,8 @@ html, body{
 header{
     display: flex;
     justify-content: center;  
+    align-items: center;
     flex-grow: 1;
-    border-bottom: 1px solid black;
 }
 
 main{
@@ -19,14 +19,24 @@ main{
     justify-content: left;
     align-items: left;
     flex-wrap: wrap;
-    margin: 1rem 0 0 1rem;
     overflow-y: auto;
 }
 
 .main_items{
     position: relative;
-    margin: 3rem;
-    margin-left: -.2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 22.5rem;
+    border-bottom: 1px solid black;
+    padding: .5rem 0 0 .5rem;
+}
+
+.item_esp{
+    width: 10rem;
+}
+
+.coracao{
+    margin-right: 1rem;
 }
 
 .images{
@@ -67,4 +77,10 @@ footer{
 a{
     color: inherit;
     text-decoration: inherit;
+}
+
+input{
+    height: 3rem;
+    width: 20rem;
+    font-size: 2rem;
 }

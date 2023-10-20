@@ -22,9 +22,10 @@ h1{
 }
 
 main{
+    margin:1rem ;
     position: relative;
     display: flex;
-    flex-grow: 2;
+    flex-grow: 20;
     justify-content: left;
     align-items: left;
     flex-wrap: wrap;
@@ -58,4 +59,22 @@ footer{
 .coluna{
     display: flex;
     flex-direction: column;
+}
+
+.falsoBody{
+    width: 7rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.lista{
+    margin:1rem;
+}
+
+.listitems{
+    margin-top: .5rem;
 }

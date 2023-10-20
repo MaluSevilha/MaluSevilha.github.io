@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pão com Ovo</title>
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/pag_receita.css">
 </head>
 <body>
     <header>
@@ -13,74 +15,77 @@
     </header>
 
     <main>
+        <ul class="linha">
+            <li>
+                <ul class="coluna">
+                    <li>
+                        <ul class="linha">
+                            <li>
+                                <img src="img/chefhat.png" alt="Dificuldade">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul>
+                            <li>
+                                <img src="img/1h_relogio .png" alt="Tempo de preparo">
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <ul class="linha">
+                            <li>
+                                <img src="img/Estrela.png" alt="Nota">
+                            </li>
+                            <li>
+                                <img src="img/Estrela.png" alt="Nota">
+                            </li>
+                            <li>
+                                <img src="img/Estrela.png" alt="Nota">
+                            </li>
+                            <li>
+                                <img src="img/Estrela.png" alt="Nota">
+                            </li>
+                            <li>
+                                <img src="img/Estrela.png" alt="Nota">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="falsoBody">
+    
+            </li>
+            <li>
+                <img src="img/pao_ovo.jpg" alt="Pão com ovo">
+            </li>
+        </ul>
     <ul>
-        <li>
-            <img src="https://fakeimg.pl/200x100" alt="Pão com Ovo">
-        </li>
-        <li>
-            <a href="#"><img src="https://fakeimg.pl/50x50" alt="Favoritar"></a>
-        </li>
-        <li>
-            <ul>
-                <li>
-                    <h3>
-                        Dificuldade:
-                    </h3>
-                </li>
-                <li>
-                    <img src="https://fakeimg.pl/100x50" alt="Dificuldade">
-                </li>
-            </ul>
-        </li>
-        <li>
-            <ul>
-                <li>
-                    <h3>
-                        Tempo de preparo:
-                    </h3>
-                </li>
-                <li>
-                    <img src="https://fakeimg.pl/100x50" alt="Tempo de Preparo">
-                </li>
-            </ul>
-        </li>
-        <li>
-            <ul>
-                <li>
-                    <h3>
-                        Nota:
-                    </h3>
-                </li>
-                <li>
-                    <img src="https://fakeimg.pl/50x50" alt="Nota">
-                </li>
-            </ul>
-        </li>
         <li>
             <ul>
                 <li>
                     <h2>
-                        Ingredientes:
+                        INGREDIENTES:
                     </h2>
                 </li>
-                <li>
+                <li class="lista">
                     <ol>
-                        <li>
+                        <li class="listitems">
                             <h5>
                                 2 fatias de pão
                             </h5>
                         </li>
-                        <li>
+                        <li class="listitems">
                             <h5>
                                 2 ovos
                             </h5>
                         </li>
-                        <li>
+                        <li class="listitems">
                             <h5>
                                 Sal [a gosto]
                             </h5>
                         </li>
-                        <li>
+                        <li class="listitems">
                             <h5>
                                 Orégano [a gosto]
                             </h5>
@@ -94,88 +99,53 @@
 
     <footer>
         <!-- Barra de ferramentas -->
-        <ul>
+        <ul class="linha">
             <!-- Favoritos -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Favoritos
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="favoritos.html"> <img src="https://fakeimg.pl/50x50" alt="Favoritos"> </a>
+                        <a href="favoritos.html"> <img src="img\Coracao.png" alt="Favoritos"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Despensa -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Despensa
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="despensa.html"> <img src="https://fakeimg.pl/50x50" alt="despensa"> </a>
+                        <a href="despensa.html"> <img src="img\Despensa.png" alt="despensa"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Menu -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Menu
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
-                    <li>
-                        <a href="index.html"> <img src="https://fakeimg.pl/50x50" alt="menu"> </a>
+                    <li class="home">
+                        <a href="index.html"> <img src="img\icone_casa.png" alt="menu"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Compras -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Compras
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="#"> <img src="https://fakeimg.pl/50x50" alt="compras"> </a>
+                        <a href="#"> <img src="img\carrinho_compras.png" alt="compras"> </a>
                     </li>
                 </ul>
             </li>
 
             <!-- Usuário -->
             <li>
-                <ul>
-                    <!-- Escrita -->
-                    <li>
-                        <h4>
-                            Usuário
-                        </h4>
-                    </li>
-                    
+                <ul class="footer_items">
                     <!-- Imagem -->
                     <li>
-                        <a href="#"> <img src="https://fakeimg.pl/50x50" alt="usuário"> </a>
+                        <a href="#"> <img src="img\usuario.png" alt="usuário"> </a>
                     </li>
                 </ul>
             </li>

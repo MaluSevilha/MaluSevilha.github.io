@@ -3,6 +3,8 @@ html, body{
     width: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Lora', serif;
 }
 
 header{

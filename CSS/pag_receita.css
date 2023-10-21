@@ -4,7 +4,6 @@ html, body{
     display: flex;
     flex-direction: column;
     font-family: 'Manrope', sans-serif;
-    font-family: 'Lora', serif;
 }
 
 header{
@@ -72,6 +71,10 @@ h2{
     margin: 1rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+}
+
+h5{
+    font-family: 'Lora', serif;
 }
 
 .lista{

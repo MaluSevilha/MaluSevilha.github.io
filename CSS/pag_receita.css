@@ -29,7 +29,7 @@ main{
     display: flex;
     flex-grow: 20;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
@@ -50,7 +50,7 @@ footer{
 }
 
 .home{
-    padding-top: -.2rem;
+    margin-top: -.2rem;
 }
 
 .linha{

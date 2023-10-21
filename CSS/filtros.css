@@ -30,7 +30,7 @@ main{
     display: flex;
     flex-grow: 2;
     justify-content: left;
-    align-items: left;
+    align-items: flex-start;
     flex-wrap: wrap;
     margin: 1rem 0 0 1rem;
 }
@@ -59,7 +59,7 @@ footer{
 }
 
 .home{
-    padding-top: -.2rem;
+    margin-top: -.2rem;
 }
 
 .linha{

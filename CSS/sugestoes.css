@@ -12,6 +12,16 @@ header{
     flex-grow: 1;
 }
 
+.voltar{
+    position: relative;
+    display: flex;
+    margin: 0.5rem 0 0 0.5rem;
+}
+
+h3{
+    margin: 0.1rem 0 0 0.3rem;
+}
+
 main{
     position: relative;
     display: flex;
@@ -25,10 +35,9 @@ main{
 footer{
     position: relative;
     display: flex;
-    flex-grow: 1;
+    flex-grow: 0.125;
     width:23.7rem ;
     justify-content: center;
-    height:.1rem ;
     background-color: #c8ecd0;
 }
 

@@ -42,6 +42,16 @@ footer{
     background-color: #c8ecd0;
 }
 
+.principal{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+
 .footer_items{
     margin: .4rem ;
     align-items: center;

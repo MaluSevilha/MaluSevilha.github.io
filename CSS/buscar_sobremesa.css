@@ -11,6 +11,8 @@ header{
     justify-content: center;  
     align-items: center;
     flex-grow: 1;
+    width: 100%;
+    padding: 0.5rem;
 }
 
 main{
@@ -81,7 +83,28 @@ a{
 }
 
 input{
-    height: 3rem;
-    width: 20rem;
-    font-size: 2rem;
+    height: 2rem;
+    width: 12rem;
+    font-size: 1rem;
+}
+
+.voltar{
+    position: relative;
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.h3_voltar{
+    margin: 0.1rem 0 0 0.3rem;
+}
+
+.topo{
+    display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.buscar{
+    margin-right: 0.5rem;
 }

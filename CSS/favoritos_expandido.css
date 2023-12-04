@@ -41,7 +41,7 @@ h1{
     display: flex;
     justify-content: space-between;
     padding: 2rem;
-    width: 100%;
+    width: 20rem;
     border-bottom: 1px solid black;
 }
 
@@ -63,7 +63,7 @@ main{
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 21.25rem;
     padding: 1rem;
     border-bottom: 1px solid #8fd69d;
 }
@@ -71,7 +71,7 @@ main{
 .sobremesa{
     border-bottom: 1px solid black;
     padding: 2rem 0 2rem 0;
-    width: 20rem;
+    width: 23.25rem;
     display: flex;
     justify-content: space-around;
 }
